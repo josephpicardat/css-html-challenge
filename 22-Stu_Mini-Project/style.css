@@ -1,0 +1,152 @@
+*{
+  font-family: serif, sans-serif, 'Times New Roman', Times, serif;
+}
+
+body{
+  z-index:-1;
+  background-color: #d8ccae; /*weird gold*/
+}
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 75px;
+    border-bottom: 10px solid #85907e; /*weird green*/
+    background-color: #d6d2cf; /*light biege*/
+}
+
+#title{
+  position: absolute;
+  text-align: start;
+  left: 5%;
+  font-size: 25px;
+  border-top:50%;
+}
+
+/* Color Palette
+#d6d2cf light biege
+#d8ccae gold
+#cbbfb9 pinkish
+#85907e green
+*/
+
+
+a:link{color:black;}
+
+a:visited{color:black;}
+
+a:hover{color:#cbbfb9;}
+
+ul{
+  position:absolute;
+  list-style-type:none;
+  margin:5px;
+  padding: 0;
+  bottom: 8%;
+  text-align:center;
+  right:5%;
+}
+
+#top1, #forever1, #contact1{
+  display:inline-block;
+  font-size: 20px;
+  padding: 8px 16px;
+  background-color: #85907e;
+  border:2px solid black;
+}
+
+
+h2{
+    text-align: center;
+}
+
+.text{
+  text-align: center;
+  position: relative;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Main*/
+
+.central{
+  position: relative;
+  width: 100%;
+  border-radius:50px;
+  border-color:#d6d2cf;
+}
+
+.ontop{
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color:white;
+  opacity: 90%;
+  text-shadow: 0 0 10px #85907e;
+}
+
+
+/*Contact Info*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #85907e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the contact section */
+.container {
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-color: #85907e;
+  background-color: #d6d2cf;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left; /* the image on the left is the float */
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* this class:after generates a table beneath both floats 
+(picture and inputs) and makes the table blank */
+.row:after {
+  content: ""; /* leaves content blank*/
+  display: table;
+  clear: both;
+}
+
+/*Footer*/
+
+.footer{
+  font-size: 8px;
+  border-top: 10px solid #85907e;
+  background-color: #d6d2cf;
+}
